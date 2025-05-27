@@ -495,7 +495,7 @@ function generateS3Url(key: string): string {
 
   // 如果使用阿里云 OSS，直接使用阿里云 OSS 的 URL
   if (env.S3_ENDPOINT.includes('aliyuncs.com')) {
-    return `https://${bucketName}.oss-cn-${env.S3_REGION}.aliyuncs.com/${bucketName}/${key}`
+    return `https://${bucketName}.oss-cn-${env.S3_REGION}.aliyuncs.com/${key}`
   }
 
   // 对于自定义端点（如 MinIO 等）

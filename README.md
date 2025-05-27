@@ -45,6 +45,7 @@ pnpm run build:manifest
 # 全量更新
 pnpm run build:manifest -- --force
 ```
+使用前缀隔离不同照片
 
 ### 测试 S3 连接
 
