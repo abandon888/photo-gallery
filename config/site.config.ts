@@ -1,6 +1,6 @@
 export const siteConfig = {
-  name: "Innei's Photo Gallery",
-  title: "Innei's Photo Gallery",
+  name: "Tsingper's Photo Gallery",
+  title: "Tsingper's Photo Gallery",
   description:
     'Capturing beautiful moments in life, documenting daily warmth and emotions through my lens.',
   url: process.env.SITE_URL || 'https://gallery.innei.in',
@@ -10,9 +10,9 @@ export const siteConfig = {
   },
   author: {
     name: 'Photo Gallery',
-    url: process.env.SITE_URL || 'https://innei.in/',
+    url: process.env.SITE_URL || 'https://github.com/abandon888',
   },
   social: {
-    twitter: '@__oQuery',
+    twitter: '',
   },
 }
